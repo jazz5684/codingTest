@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Programmers4 {
+public class CodingTest_01_Tuesday {
     public static void main(String[] args) {
 //        퓨쳐종합병원에서는 접수한 환자가 진료받을 병과에 따라 자동으로 환자 코드를 부여해 주는 프로그램이 있습니다.
 //        환자 코드의 마지막 네 글자를 보면 환자가 어디 병과에서 진료를 받아야 할지 알 수 있습니다. 예를 들어 환자의 코드가 "_eye"로 끝난다면 안과를,
@@ -12,9 +12,7 @@ public class Programmers4 {
         String code = sc.next();
         String lastFourWords = code.substring(code.length()-4, code.length());
 
-        if(lastFourWords.equals(
-                "_eye"
-        )){
+        if(lastFourWords.equals("_eye")){
             System.out.println("Ophthalmologyc");
         }
         else if(

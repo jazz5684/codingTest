@@ -1,4 +1,4 @@
-public class Progammers5 {
+public class CodingTest_02_Tuesday {
 //    심폐소생술은 다음과 같은 순서를 통해 실시합니다.
 //    1심정지 및 무호흡 확인 [check]
 //    2도움 및 119 신고 요청 [call]
@@ -11,10 +11,10 @@ public class Progammers5 {
         int[] answer = {0, 0, 0, 0, 0};
         String[] basic_order = {"check", "call", "pressure", "respiration", "repeat"};
 
-        for(int i = 0; i < basic_order.length; i++){
-            for(int j = 0; j < answer.length; j++){
-                if(cpr[i].equals( basic_order[j])){
-                    answer[i] = j + 1  ;
+        for(int i = 0; i < basic_order.length; i++) {
+            for (int j = 0; j < answer.length; j++) {
+                if (cpr[i].equals(basic_order[j])) {
+                    answer[i] = j + 1;
                     break;
                 }
             }
